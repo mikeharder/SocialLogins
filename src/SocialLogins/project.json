@@ -16,6 +16,7 @@
     "Microsoft.AspNetCore.Routing": "1.1.0-preview1-final",
     "Microsoft.AspNetCore.Server.IISIntegration": "1.1.0-preview1-final",
     "Microsoft.AspNetCore.Server.Kestrel": "1.1.0-preview1-final",
+    "Microsoft.AspNetCore.Server.Kestrel.Https": "1.1.0-preview1-final",
     "Microsoft.AspNetCore.StaticFiles": "1.1.0-preview1-final",
     "Microsoft.EntityFrameworkCore.SqlServer": "1.1.0-preview1-final",
     "Microsoft.EntityFrameworkCore.SqlServer.Design": {
@@ -87,7 +88,8 @@
       "wwwroot",
       "**/*.cshtml",
       "appsettings.json",
-      "web.config"
+      "web.config",
+      "testCert.pfx"
     ]
   },
 
